@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "html-webpack-plugin": "^5.6.3",
+    "scss": "^0.2.4"
+  }
+}
