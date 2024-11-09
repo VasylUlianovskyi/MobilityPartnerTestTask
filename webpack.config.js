@@ -4,6 +4,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const ImageMinimizerPlugin = require('image-webpack-loader');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = argv => {
@@ -48,6 +49,9 @@ module.exports = argv => {
         {
           test: /\.(png|jpe?g|gif|svg)$/i,
           type: 'asset/resource',
+          generator: {
+            filename: 'images/[name][ext]',
+          },
           use: [
             {
               loader: 'image-webpack-loader',
@@ -78,6 +82,10 @@ module.exports = argv => {
       new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
         filename: 'styles.css',
+      }),
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        filename: 'index.html',
       }),
       new webpack.ProvidePlugin({
         $: 'jquery',

@@ -8,21 +8,16 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="./src/reset.css" />
-    <link rel="stylesheet" href="./src/style.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer="defer" src="vendors.bundle.js"></script>
+    <script defer="defer" src="main.bundle.js"></script>
 
-    <script defer src="./src/js/index.js"></script>
   </head>
   <body>
     <header>
-      <a href="#"
-        ><img
-          class="logo"
-          src="./src/public/images/mirologo.png"
-          alt="miro_logo"
-      /></a>
+      <a href="#">
+        <img class="logo" alt="miro_logo" src="./images/mirologo.png" />
+      </a>
       <nav class="navbar">
         <ul class="nav-links">
           <li data-dropdown>
@@ -66,8 +61,8 @@
               <option value="ru">PL</option>
             </select>
           </div>
-          <a href="#" class="contact">Contact Sales</a>
-          <a href="#" class="login">Login</a>
+          <a href="#" >Contact Sales</a>
+          <a href="#" >Login</a>
           <a href="#" class="sign-up">Sign up free →</a>
         </div>
       </nav>
@@ -95,7 +90,7 @@
 
         <img
           class="main-section-image"
-          src="./src/public/images/miroimg.png"
+          src="./images/miroimg.png"
           alt="Miro Board Example"
         />
       </section>
@@ -152,14 +147,15 @@
           <a href="#">Privacy Policy</a>
           <a href="#">Manage Cookies</a>
         </div>
-        <div class="app-links">
+        <div class="app-links-wrapper">
           <a href="#"
-            ><img
-              src="./src/public/images/app-store128x128.png"
+            ><img class="app-links"
+            src="./images/app-store128x128.png"
               alt="App Store"
           /></a>
-          <a href="#"
-            ><img src="./src/public/images/128x128.png" alt="Google Play"
+          <a href="#" class="app-links-google"
+            ><img alt="Google Play"
+            src="./images/128x128.png"
           /></a>
         </div>
       </div>

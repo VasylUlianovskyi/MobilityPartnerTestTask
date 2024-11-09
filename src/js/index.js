@@ -1,3 +1,5 @@
+import '../sccs/style.scss';
+
 // dropdown menu
 
 $(document).ready(function () {
