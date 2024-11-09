@@ -18,22 +18,22 @@ A test project focused on setting up a Webpack-based environment for SCSS compil
         npm install or yarn install
 
 ## Development Mode
-    To start the project in development mode with a local Webpack server:
+  To start the project in development mode with a local Webpack server:
 
         npm start
 
-    The project will be available at http://localhost:8080.
+  The project will be available at http://localhost:8080.
 
 ## Production Build
-    To create an optimized production build:
+   To create an optimized production build:
   
         npm run build
 
-    After running this command, the dist folder will contain the final build files:
+  After running this command, the dist folder will contain the final build files:
 
-        index.html — main HTML file of the project
-        css/ — folder with compiled CSS styles
-        index.js — main JavaScript file
+   index.html — main HTML file of the project
+   css/ — folder with compiled CSS styles
+  index.js — main JavaScript file
 
 
 ## Folder Structure
@@ -47,10 +47,10 @@ A test project focused on setting up a Webpack-based environment for SCSS compil
 
 ## Technologies Used
 
-        Webpack — for project bundling and optimization
-        SCSS — CSS preprocessor for styles
-        Bootstrap and Bootstrap Icons — for UI styling
-        jQuery — for DOM manipulation
+  Webpack — for project bundling and optimization
+  SCSS — CSS preprocessor for styles
+  Bootstrap and Bootstrap Icons — for UI styling
+  jQuery — for DOM manipulation
 
 
 
