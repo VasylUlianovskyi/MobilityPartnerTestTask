@@ -31,9 +31,9 @@ A test project focused on setting up a Webpack-based environment for SCSS compil
 
   After running this command, the dist folder will contain the final build files:
 
-   index.html — main HTML file of the project
-   css/ — folder with compiled CSS styles
-  index.js — main JavaScript file
+     index.html — main HTML file of the project
+     css/ — folder with compiled CSS styles
+     index.js — main JavaScript file
 
 
 ## Folder Structure
@@ -46,11 +46,11 @@ A test project focused on setting up a Webpack-based environment for SCSS compil
         ├── ... (other project files)
 
 ## Technologies Used
-
-  Webpack — for project bundling and optimization
-  SCSS — CSS preprocessor for styles
-  Bootstrap and Bootstrap Icons — for UI styling
-  jQuery — for DOM manipulation
+  
+    Webpack — for project bundling and optimization
+    SCSS — CSS preprocessor for styles
+    Bootstrap and Bootstrap Icons — for UI styling
+    jQuery — for DOM manipulation
 
 
 
