@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script defer src="./src/js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#"
+        ><img
+          class="logo"
+          src="./src/public/images/mirologo.png"
+          alt="miro_logo"
+      /></a>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li data-dropdown>
+            <a href="#">Product <i class="bi bi-chevron-down"></i></a>
+            <ul data-dropdown-content>
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+        
+          <li data-dropdown-sol>
+            <a href="#">Solutions <i class="bi bi-chevron-down"></i></a>
+            <ul data-dropdown-content-sol>
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+        
+          <li data-dropdown-res>
+            <a href="#">Resources <i class="bi bi-chevron-down"></i></a>
+            <ul data-dropdown-content-res>
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
+            </ul>
+          </li>
+        
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        
+        </ul>
+        <div class="nav-actions">
+          <div>
+            <i class="bi bi-globe2"></i>
+            <select id="language-select">
+              <option value="en">EN</option>
+              <option value="ua">UA</option>
+              <option value="ru">PL</option>
+            </select>
+          </div>
+          <a href="#" class="contact">Contact Sales</a>
+          <a href="#" class="login">Login</a>
+          <a href="#" class="sign-up">Sign up free →</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="main-section-text">
+          <h1>Take ideas from better to best</h1>
+          <p>
+            Miro is your team’s visual platform to connect, collaborate, and
+            create — together.
+          </p>
+          <form id="emailForm">
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your work email"
+              required
+            />
+            <button type="submit">Sign up free →</button>
+          </form>
+          <p class="small-text">Collaborate with your team within minutes</p>
+        </div>
+
+        <img
+          class="main-section-image"
+          src="./src/public/images/miroimg.png"
+          alt="Miro Board Example"
+        />
+      </section>
+
+      <section class="features">
+        <div class="features-title">
+          <h2>Collaborate without constraints</h2>
+          <span class="rotated-text">YOUR IDEA STARS HERE</span>
+        </div>
+
+        <div class="features-list">
+          <div class="feature-item">
+            <h3>Free forever</h3>
+            <p>
+              Our free plan gives you unlimited team members, 3 boards, and 300+
+              expert-made templates. Signing up with your work email lets you
+              bring in your team faster.See our
+              <a href="#"> pricing plans</a> for more features.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3>Easy integrations</h3>
+            <p>
+              Miro has 100+ powerful integrations with tools you already use
+              like G Suite, Slack, and Jira, so your workflow is seamless. View
+              the full list in our <a href="#">Marketplace</a>.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h3>Security first</h3>
+            <p>
+              We treat your data like you would — with the utmost care. We
+              follow industry-leading security standards and give you tools to
+              protect intellectual property. Learn more at our
+              <a href="#">Trust Center</a>.
+            </p>
+          </div>
+        </div>
+        <a href="#" class="sign-up-button">Sign up free →</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-youtube"></i></a>
+          <a href=""><i class="bi bi-globe2"></i> EN</a>
+          <a href="#"><i class="bi bi-c-circle"></i> 2022 Miro</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Manage Cookies</a>
+        </div>
+        <div class="app-links">
+          <a href="#"
+            ><img
+              src="./src/public/images/app-store128x128.png"
+              alt="App Store"
+          /></a>
+          <a href="#"
+            ><img src="./src/public/images/128x128.png" alt="Google Play"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
